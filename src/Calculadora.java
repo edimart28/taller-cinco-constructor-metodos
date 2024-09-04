@@ -46,9 +46,9 @@ public class Calculadora {
         System.out.println("3. Multiplicar");
         System.out.println("4. Dividir");
 
-        int opcion = scanner.nextInt();
+        int operacion = scanner.nextInt();
 
-        switch (opcion) {
+        switch (operacion) {
             case 1:
                 System.out.println("Resultado de la suma: " + calculadora.suma());
                 break;
